@@ -1,0 +1,23 @@
+:root {
+  // 自定义变量
+  --el-header-bg-color: #c6e2ff;
+  --el-menu-bg-color: #d9ecff;
+  .el-drawer__header {
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+}
+.dark:root {
+  --el-header-bg-color: #000000 !important;
+  --el-menu-bg-color: #000000 !important;
+  .el-main {
+    background-color: var(--el-menu-bg-color);
+  }
+  .el-header {
+    color: #fff;
+  }
+  .el-drawer__header {
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+}
